@@ -66,7 +66,7 @@ const ContactMeForm = () => {
           ) : 
           (
             <>
-            <h3 className="contact__form--title">Got a project in mind, reach out!</h3>
+            <h3 className="contact-form--title">Got a project in mind, reach out!</h3>
             <form onSubmit={handleSubmit} noValidate>
               <div className="mb-3">
                 <label htmlFor="name" className="form-label">
@@ -111,7 +111,7 @@ const ContactMeForm = () => {
                 <div className="errorMessage">{errors.message}</div>
               </div>
               <div>
-                <button className="btn__contactMeForm e-toast-success" type="submit">
+                <button className="btn-contactMeForm e-toast-success" type="submit">
                   Send message
                 </button>
               </div>

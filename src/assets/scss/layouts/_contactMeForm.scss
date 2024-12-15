@@ -1,0 +1,83 @@
+@use '../abstracts/variables' as *;
+
+
+.contact-me-form {
+    align-items: center;
+  
+    .container {
+      max-width: 800px;
+  
+      .message__container {
+        height: 360px;
+        width: 100%;
+  
+        .message__message {
+          font-size: 2rem;
+          color: $color-success-message;
+        }
+      }
+  
+      .contact-form--title {
+        color: $primary-color;
+        font-weight: $font-weight-medium;
+        margin: 30px 0;
+      }
+  
+      form {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 8px;
+  
+        .form-label {
+          font-size: 1.2rem;
+          color: $primary-color;
+        }
+  
+        .errorMessage {
+          margin-top: 5px;
+          color: $color-error-message;
+          font-size: 0.9rem;
+  
+        }
+  
+        input {
+          width: 100%;
+          padding: 14px 16px;
+          border: 1px solid $primary-color;
+          
+          &::placeholder {
+            font-size: 0.9rem;
+          }
+        }
+  
+        textarea {
+          font-size: $font-size-base;
+          padding: 14px 16px;
+          height: 140px;
+          border: 1px solid $primary-color;
+          resize: none;
+
+          &::placeholder {
+            font-size: 0.9rem;
+          }
+        }
+  
+        .btn-contactMeForm {
+          font-size: 1.2rem;
+          font-weight: 500;
+          color: $white;
+          background-color: $accent-color-orange;
+          padding: 14px 16px;
+          width: 100%;
+          border-radius: 5px;
+          border: none;
+          outline: none;
+  
+          &:hover {
+            background-color: $accent-color-orange-dark;
+          }
+        }
+      }
+    }
+  }
+  
