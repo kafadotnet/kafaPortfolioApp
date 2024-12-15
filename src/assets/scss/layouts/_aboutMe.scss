@@ -1,0 +1,43 @@
+@use '../abstracts/variables' as *;
+
+.about-me-secion {
+    padding: 80px 0;
+
+    .title {
+       font-weight: $font-weight-medium; 
+       text-align: center;
+       margin: 0 0 60px 0;
+       padding: 0 0 20px 0;
+    }
+
+    .about-me-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        .image-left {
+            width: 45%;
+
+            .image {
+                width: 400px;
+                height: 400px;
+                border-radius: 4px;
+                object-fit: cover;
+            }
+        }
+
+        .text-right {
+            width: 55%;
+            text-align: justify;
+            line-height: $line-height;
+
+            .text-title {
+                font-weight: $font-weight-medium;
+                & span {
+                    color: $accent-color-green;
+                }
+            }
+        }
+    }
+}
