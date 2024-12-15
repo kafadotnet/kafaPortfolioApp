@@ -8,6 +8,9 @@ html, body {
     font-family: $font-family-base, sans-serif;
     font-weight: $font-weight-regular;
     line-height: $line-height-base;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a {
