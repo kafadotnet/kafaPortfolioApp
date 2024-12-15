@@ -1,3 +1,4 @@
+import ContactMeForm from "../layouts/ContactMeForm";
 import NavigationLayout from "../layouts/NavigationLayout";
 
 const ContactPage = () => {
@@ -6,7 +7,7 @@ const ContactPage = () => {
       <header className="bg-gradient-theme">
         <NavigationLayout/>
       </header>
-        ContactPage
+      <ContactMeForm />
     </>
   )
 }
