@@ -1,5 +1,7 @@
 import ContactMeForm from "../layouts/ContactMeForm";
+import GoogleMap from "../layouts/GoogleMap";
 import NavigationLayout from "../layouts/NavigationLayout";
+
 
 const ContactPage = () => {
   return (
@@ -8,6 +10,7 @@ const ContactPage = () => {
         <NavigationLayout/>
       </header>
       <ContactMeForm />
+      <GoogleMap />
     </>
   )
 }
