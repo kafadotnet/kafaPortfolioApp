@@ -1,7 +1,11 @@
+import NavigationLayout from "../layouts/NavigationLayout";
 
 const HomePage = () => {
   return (
-    <h3>HomePage</h3>
+    <>
+        <NavigationLayout/>
+        HomePage
+    </>
   )
 }
 

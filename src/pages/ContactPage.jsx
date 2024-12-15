@@ -1,7 +1,11 @@
+import NavigationLayout from "../layouts/NavigationLayout";
 
 const ContactPage = () => {
   return (
-    <h3>ContactPage</h3>
+    <>
+        <NavigationLayout/>
+        ContactPage
+    </>
   )
 }
 
