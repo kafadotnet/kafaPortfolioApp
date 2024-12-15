@@ -1,0 +1,48 @@
+@use '../abstracts/variables' as *;
+
+.navigation {
+    padding: 15px 0;
+    width: 100%;
+
+    .section-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        max-width: $container-max-width;
+        padding: 0 40px;
+        margin:auto;
+
+        .logo {
+            font-size: $font-size-h2;
+            font-weight: $font-weight-medium;
+            color: $accent-color-orange;
+            cursor: pointer;
+
+            & .logo-dot {
+                color: $accent-color-green;
+                font-weight: $font-weight-bold;
+            }
+
+            & .logo-tech {
+                color: $white;
+            }
+        }
+        
+        .nav-menu--links {
+            align-items: center;
+
+            .nav-menu--link {
+                color: $white;
+                font-size: $font-size-h3;
+                font-weight: $font-weight-medium;
+                margin-left: 24px;
+                transition: $transition-duration $transition-timing;
+            }
+
+            .active {
+                color: $accent-color-orange;
+            }
+        }
+    }
+}

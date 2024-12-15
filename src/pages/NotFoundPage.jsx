@@ -4,7 +4,7 @@ const NotFoundPage = () => {
   return (
     <>
         <NavigationLayout/>
-        NotFoundPage
+        404 - NotFoundPage
     </>
   )
 }
