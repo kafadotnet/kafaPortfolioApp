@@ -10,11 +10,11 @@ const AboutMe = () => {
                     <img src={ AboutMeImg } className='image' alt="Fabrice Karenzi's picture on about me section" />
                 </div>
                 <div className="box text-right">
-                    <div className="text-title">Hello! I am Fabrice Karenzi, a <span>.NET Web Developer. </span></div>
+                    <h4 className="text-title">Hello! I am Fabrice Karenzi, a <span>.NET Web Developer. </span></h4>
                     <p className="paragraph">My passion is using the .NET framework, along with C#, ASP.NET Core, 
                         and front-end technologies like HTML, CSS, and JavaScript and related framework like React, 
                         to create seamless digital experiences.
-                        I’m a problem-solver at heart who enjoy transforming complex challenges into functional 
+                        I’m a problem-solver at heart who enjoy transforming complex challenges into aesthetically functional 
                         and intuitive solutions. I am constantly learning and staying updated with the latest 
                         trends in web development, and I’m eager to contribute to innovative projects that make 
                         a real impact.
