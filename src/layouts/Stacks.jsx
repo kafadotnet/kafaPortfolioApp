@@ -9,7 +9,7 @@ const Stacks = () => {
                 <div className="box left">
                     <h5 className="text-title">Hello! I am Fabrice Karenzi, a <span>.NET Web Developer. </span></h5>
                     <p className="paragraph">
-                     I have so far worked with and still acquiring a great number of skills which explains the versatility 
+                     I have so far worked with a variety of web technologies and still acquiring a great number of skills which explains the versatility 
                      and highligts both my frontend and backend expertise, while I try to stay updated with modern web development tools.
                     </p>
                     <a href="#">
