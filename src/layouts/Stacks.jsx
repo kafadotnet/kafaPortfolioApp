@@ -10,7 +10,7 @@ const Stacks = () => {
                     <h5 className="text-title">Hello! I am Fabrice Karenzi, a <span>.NET Web Developer. </span></h5>
                     <p className="paragraph">
                      I have so far worked with and still acquiring a great number of skills which explains the versatility 
-                     and highligts both my frontend and backend expertise, while I try to stay updated with modern development tools.
+                     and highligts both my frontend and backend expertise, while I try to stay updated with modern web development tools.
                     </p>
                     <a href="#">
                         Read more
@@ -55,8 +55,6 @@ const Stacks = () => {
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg" />
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/dotnetcore/dotnetcore-original.svg" />
                                 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" />
-
-          
                             </span>
                             <span className="percentage">50%</span>
                         </div>
