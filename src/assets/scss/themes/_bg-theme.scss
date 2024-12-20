@@ -3,3 +3,8 @@
     background: -webkit-linear-gradient(to bottom, #001510, #00bf8f);
     background: linear-gradient(to bottom, #001510, #00bf8f);
 }
+
+.bg-gradient-portfolio {
+    background: rgb(9,61,49);
+    background: linear-gradient(45deg, rgba(9,61,49,1) 0%, rgba(14,173,133,1) 100%);
+}
