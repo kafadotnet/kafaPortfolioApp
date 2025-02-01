@@ -13,7 +13,6 @@ function App() {
           <Route path='/' element={< HomePage />} />
           <Route path='/contact-me' element={<ContactPage />} />
           <Route path='*' element={<NotFoundPage />} />
-          <Route />
         </Routes>
       </BrowserRouter>
     </>
