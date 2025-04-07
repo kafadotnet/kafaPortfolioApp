@@ -1,22 +1,26 @@
 // Abstracts
-@use 'abstracts/variables' as *;
+@use "abstracts/variables" as *;
 
 // Base
-@use 'base/typography' as *;
-@use 'base/base' as *;
+@use "base/typography" as *;
+@use "base/base" as *;
 
 // Components
+@use "components/cardPortfolio" as *;
 
 // Layouts
-@use 'layouts/container' as *;
-@use 'layouts/navigationLayout' as *;
-@use 'layouts/profileLayout' as *;
-@use 'layouts/aboutMe' as *;
-@use 'layouts/stacks' as *;
-@use 'layouts/contactMeForm' as *;
-@use 'layouts/googleMap' as *;
+@use "layouts/container" as *;
+@use "layouts/navigationLayout" as *;
+@use "layouts/portfolioLayout" as *;
+@use "layouts/aboutMe" as *;
+@use "layouts/stacks" as *;
+@use "layouts/portfolioLayout" as *;
+@use "layouts/testimonials" as *;
+@use "layouts/footer" as *;
+@use "layouts/contactMeForm" as *;
+@use "layouts/googleMap" as *;
 
 // Pages
 
 // Themes
-@use 'themes/bg-theme' as *;
+@use "themes/bg-theme" as *;

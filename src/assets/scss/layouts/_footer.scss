@@ -1,0 +1,11 @@
+@use '../abstracts/variables' as *;
+
+.logo-text {
+    font-weight: 600;
+    color: $accent-color-orange-dark;
+}
+
+.copy-right {
+    font-weight: 600;
+    color: $accent-color-orange-dark;
+}

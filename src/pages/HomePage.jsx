@@ -1,4 +1,5 @@
 import AboutMe from "../layouts/AboutMe";
+import Footer from "../layouts/Footer";
 import NavigationLayout from "../layouts/NavigationLayout";
 import Portfolio from "../layouts/PortfolioLayout";
 import ProfileLayout from "../layouts/ProfileLayout";
@@ -16,6 +17,7 @@ const HomePage = () => {
       <Stacks />
       <Portfolio />
       <Testimonials />
+      <Footer />
     </>
   );
 };
