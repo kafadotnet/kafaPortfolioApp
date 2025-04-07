@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "projectImage": "../images/champion_quiz.png",
+      "projectName": "React",
+      "projectLink": "https://kafachampionquiz.netlify.app/",
+      "projectIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg"
+    },
+    {
+      "projectImage": "../images/product-inventory-app.png",
+      "projectName": "C#",
+      "projectLink": "https://github.com/kafadotnet/ProductInventoryApp",
+      "projectIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg"
+    },
+    {
+      "projectImage": "../images/msfour-eCommerce.jpg",
+      "projectName": "Python3",
+      "projectLink": "https://github.com/kafabkaren/msfour_kafagymstore",
+      "projectIcon": "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg"
+    }
+  ]
+}

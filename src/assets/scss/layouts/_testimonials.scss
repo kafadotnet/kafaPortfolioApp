@@ -1,0 +1,81 @@
+@use '../abstracts/variables' as *;
+
+.testimonials-section {
+    padding: 80px 0;
+    background-color: $gray-light;
+
+    .section-container {
+        
+        .testimonials-title {
+            font-weight: $font-weight-medium;
+            text-align: center;
+            margin: 0 0 6px 0;
+            padding: 0 0 20px 0;
+        }
+
+        .testimonials-subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .testimonials--wrapper {
+            background-color: $secondary-color;
+            position: relative;
+            max-width: 700px;
+            margin: 0 auto;
+            border-radius: 5px;
+
+            .testimonial--info {
+                width: 100%;
+                height: fit-content;
+                padding: 3rem 0;
+                text-align: center;
+
+                .testimonial--desc {
+                    blockquote::before,
+                    blockquote::after {
+                        content: '"';
+                        font-size: 2rem;
+                        color: $accent-color-orange;
+                    }
+
+                    blockquote {
+                        font-style: italic;
+                        margin: 20px;
+                        padding: 10px;
+                        border-left: 4px solid $gray-medium;
+                    }
+                }
+
+                .testimonial--name {
+                    margin-top: 2rem;
+
+                }
+
+                .testimonial--title {
+                    font-size: 1.2rem;
+                    margin-top: 0.3rem;
+                }
+            }
+        }
+
+        .arrows {
+            margin-top: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            
+            .prev, .next {
+                color: $gray-light;
+                font-weight: $font-weight-medium;
+                margin: 0 0.5rem;
+                width: fit-content;
+                background-color: $secondary-color;
+                padding: 0.5rem 2rem;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+        }
+    }
+}
