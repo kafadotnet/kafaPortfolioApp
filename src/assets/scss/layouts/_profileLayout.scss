@@ -1,6 +1,112 @@
-@use '../abstracts/variables' as *;
-@use '../layouts/container' as *;
+@use "../abstracts/variables" as *;
 
-.profile-section {
-    
+.profile-content {
+  padding: 40px 0px 40px 0px;
+
+  .profile-description {
+    color: $gray-medium;
+
+    p {
+      color: $gray-light;
+      font-size: $font-size-h3;
+
+      & .profile-dev-typ {
+        color: $accent-color-green;
+      }
+    }
+
+    .descr-name {
+      margin: 20px 0px 20px 0;
+      font-size: $font-size-h2;
+
+      .firstname {
+        color: $accent-color-orange-dark;
+        margin-right: 10px;
+      }
+
+      .lastname {
+        color: $gray-light;
+      }
+    }
+
+    .descr-text {
+      width: fit-content;
+      margin-bottom: 30px;
+    }
+
+    .profile-descr--buttons {
+      margin-bottom: 10px;
+
+      & .btn-get-in-touch {
+        color: $gray-light;
+        background-color: $accent-color-orange;
+        padding: 10px 12px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin-right: 10px;
+      }
+
+      .btn-get-in-touch:hover {
+        color: $gray-light;
+        background-color: $accent-color-orange-dark;
+        padding: 10px 12px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin-right: 10px;
+        transition: $transition-duration;
+      }
+
+      & .btn-resume {
+        color: $gray-light;
+        background-color: transparent;
+        padding: 10px 12px;
+        border-radius: 5px;
+        border: 1px solid $gray-light;
+        outline: none;
+      }
+
+      .btn-resume:hover {
+        color: $gray-light;
+        background-color: $accent-color-green;
+        padding: 10px 12px;
+        border-radius: 5px;
+        border: 1px solid $gray-light;
+        outline: none;
+        transition: $transition-duration;
+      }
+    }
+
+    .profile-social--networks {
+      font-size: 24px;
+
+      & a {
+        color: $gray-medium;
+        margin-right: 6px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .profile-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 0px 0px $gray-light;
+    border-radius: 50%;
+    height: 500px;
+    width: 500px;
+    margin: 0 0px 0 100px;
+
+    .profile-img-bg {
+      height: 100%;
+      width: 100%;
+      background-image: url("../../images/kafa-profile.png");
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      border-radius: 50%;
+    }
+  }
 }
