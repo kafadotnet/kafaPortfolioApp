@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-// import { resume } from "../assets/docs/fabrice-karenzi-cv.pdf"
 
 const ProfileLayout = () => {
   return (
