@@ -7,20 +7,21 @@
 
 // Components
 @use "components/cardPortfolio" as *;
+@use "components/footer" as *;
 
 // Layouts
 @use "layouts/container" as *;
 @use "layouts/navigationLayout" as *;
-@use "layouts/portfolioLayout" as *;
-@use "layouts/aboutMe" as *;
-@use "layouts/stacks" as *;
-@use "layouts/portfolioLayout" as *;
+@use "layouts/profileLayout" as *;
 @use "layouts/testimonials" as *;
-@use "layouts/footer" as *;
 @use "layouts/contactMeForm" as *;
 @use "layouts/googleMap" as *;
 
 // Pages
+@use "pages/aboutMe" as *;
+@use "pages/portfolioLayout" as *;
+@use "pages/stacks" as *;
+@use "pages/page-not-found" as *;
 
 // Themes
 @use "themes/bg-theme" as *;
