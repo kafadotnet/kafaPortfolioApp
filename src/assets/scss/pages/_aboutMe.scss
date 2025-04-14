@@ -1,0 +1,24 @@
+@use "../abstracts/variables" as *;
+
+.about-me-section {
+  height: 100dvh;
+  flex: 1;
+
+  .about-me-content {
+    .about-me-image {
+      height: 400px;
+      width: 400px;
+      border-radius: 5px;
+      box-shadow: $box-shadow-sm !important;
+    }
+
+    .about-me-text {
+      text-align: justify;
+
+      & h4 span {
+        color: $accent-color-green;
+        line-height: $line-height-base;
+      }
+    }
+  }
+}

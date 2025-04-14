@@ -1,0 +1,16 @@
+@use "../abstracts/variables" as *;
+
+.page-not-found {
+  height: 100dvh;
+  flex: 1;
+  position: relative;
+
+  .message {
+    position: absolute;
+    color: $primary-color;
+    font-size: $font-size-h2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

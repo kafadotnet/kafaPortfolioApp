@@ -1,0 +1,59 @@
+@use '../abstracts/variables' as *;
+
+.stacks-section {
+    height: 100vh;
+    padding: 80px 0;
+    background-color: #FFF;
+
+    .section-container {
+
+        .left {
+            text-align: justify;
+            line-height: $line-height;
+
+            & h5 span {
+                color: $accent-color-green;
+                line-height: $line-height-base;
+            }
+        }
+        
+    .technologies-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        
+        h5 {
+            margin: 0 0 40px 20px;
+        }
+
+        .btn-read-more {
+            background-color: $accent-color-orange;
+            padding: 10px 12px;
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            margin-right: 10px;
+        }
+    
+        .skills-container {
+            align-items: center;
+            display: grid;
+            grid-template-columns:  repeat(4, 1fr);
+            gap: 1rem;
+            margin-left: 20px;
+    
+            .skill-name {
+                justify-content: centers;
+            }
+    
+            .skill-icon {
+                width: 40px;
+                height: 40px; 
+            }
+        }
+    
+    }
+    }
+}
+
+    
+
