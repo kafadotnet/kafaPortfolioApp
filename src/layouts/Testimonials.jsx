@@ -1,4 +1,3 @@
-import { CSSTransition, SwitchTransition } from "react-transition-group";
 import { useState } from "react";
 import testimonials from "../../public/data/testimonials";
 
@@ -30,21 +29,13 @@ const Testimonials = () => {
         </h6>
 
         <div className="testimonials--wrapper">
-          <SwitchTransition>
-            <CSSTransition>
-              <div className="testimonial--info">
-                <div className="testimonial--desc">
-                  <blockquote>{activeSlide.testimonialDesc}</blockquote>
-                </div>
-                <h4 className="testimonial--name">
-                  {activeSlide.testimonialName}
-                </h4>
-                <p className="testimonial--title">
-                  {activeSlide.testimonialTitle}
-                </p>
-              </div>
-            </CSSTransition>
-          </SwitchTransition>
+          <div className="testimonial--info">
+            <div className="testimonial--desc">
+              <blockquote>{activeSlide.testimonialDesc}</blockquote>
+            </div>
+            <h4 className="testimonial--name">{activeSlide.testimonialName}</h4>
+            <p className="testimonial--title">{activeSlide.testimonialTitle}</p>
+          </div>
         </div>
         <div className="arrows">
           <div
