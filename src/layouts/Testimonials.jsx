@@ -45,7 +45,7 @@ const Testimonials = () => {
             tabIndex={0}
             onKeyDown={handlePrevious}
           >
-            <i className="bi bi-arrow-left"></i>
+            <i className="fa-solid fa-arrow-left"></i>
           </div>
           <div
             className="next"
@@ -54,7 +54,7 @@ const Testimonials = () => {
             tabIndex={0}
             onKeyDown={handleNext}
           >
-            <i className="bi bi-arrow-right"></i>
+            <i className="fa-solid fa-arrow-right"></i>
           </div>
         </div>
       </div>
