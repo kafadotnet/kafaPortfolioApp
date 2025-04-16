@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-const PortfolioCard = () => {
+const CardPortfolio = () => {
   const [projects, SetProjects] = useState([]);
 
   const fetchData = async () => {
@@ -18,25 +18,29 @@ const PortfolioCard = () => {
   }, []);
 
   return (
-    <div className="card-container ">
-      <div className="col">
-        {projects.map((project, index) => (
-          <a
-            href={project.projectLink}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div key={index} className="card">
-              <img src={project.projectImage} alt={project.projectName} />
-              <div className="card-body">
-                <h5 className="card-title">{project.projectName}</h5>
-              </div>
+    <div className="card-grid">
+      {projects.map((project, index) => (
+        <a
+          key={index}
+          href={project.projectLink}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="card-link"
+        >
+          <div className="card">
+            <img
+              src={project.projectImage}
+              alt={project.projectName}
+              className="card-image"
+            />
+            <div className="card-body">
+              <h5 className="card-title">{project.projectName}</h5>
             </div>
-          </a>
-        ))}
-      </div>
+          </div>
+        </a>
+      ))}
     </div>
   );
 };
 
-export default PortfolioCard;
+export default CardPortfolio;
